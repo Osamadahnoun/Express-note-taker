@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osamadahnoun/Express-note-taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Osamadahnoun/Express-note-taker/issues"
+  },
+  "homepage": "https://github.com/Osamadahnoun/Express-note-taker#readme"
 }
