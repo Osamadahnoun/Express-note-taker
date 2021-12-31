@@ -17,6 +17,7 @@ const notes = require('./db/db.json');
 const createNewNote = function(body, notesArray) {
     const note = body;
     notesArray.push(note);
+    // Pushes to json file
     fs.writeFileSync(
         path.join(__dirname, './db/db.json'),
         JSON.stringify({ notes: notesArray }, null, 2)
